@@ -1,0 +1,16 @@
+{
+  "generator-cloudant-talk": {
+    "presentationTitle": "Cloud replication equals offline awesome!",
+    "presentationSubTitle": "",
+    "packageVersion": "0.0.0",
+    "revealLayout": "cloudant",
+    "revealTheme": "cloudant",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "ukmadlz",
+    "githubRepository": "cloud-replication-equals-offline-awesome",
+    "authorName": "Mike Elsmore",
+    "authorJobTitle": "Developer Advocate",
+    "authorEmail": "mike.elsmore@cloudant.com"
+  }
+}
