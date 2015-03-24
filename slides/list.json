@@ -19,5 +19,11 @@
     [
         "so-whats-this-about.md",
         "its-about-this.html"
-    ]
+    ],
+    [
+        "a-brief-history.html",
+        "localstorage.html",
+        "sqllite.html"
+    ],
+    "the-future.html"
 ]
