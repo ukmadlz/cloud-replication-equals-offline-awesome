@@ -31,7 +31,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
         connect:
 
             livereload:
@@ -71,6 +71,8 @@ module.exports = (grunt) ->
                         'bower_components/**'
                         'js/**'
                         'images/**'
+                        'css/**'
+                        'video/**'
                     ]
                     dest: 'dist/'
                 },{
@@ -80,7 +82,7 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
+
         manifest:
 
             generate:
@@ -145,7 +147,7 @@ module.exports = (grunt) ->
                 options:
                     remote: 'git@github.com:ukmadlz/cloud-replication-equals-offline-awesome.git'
                     branch: 'gh-pages'
-        
+
 
 
     # Load all grunt tasks.
@@ -187,13 +189,13 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-    
+
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
             'dist'
             'buildcontrol'
         ]
-    
+
 
     # Define default task.
     grunt.registerTask 'default', [
